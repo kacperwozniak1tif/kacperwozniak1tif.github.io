@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1250">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.11  (Win32)">
+	<META NAME="AUTHOR" CONTENT="Kacper Woźniak">
+	<META NAME="CREATED" CONTENT="20211018;9045300">
+	<META NAME="CHANGEDBY" CONTENT="Kacper Woźniak">
+	<META NAME="CHANGED" CONTENT="20211107;18071841">
+	<META NAME="AppVersion" CONTENT="16.0000">
+	<META NAME="DocSecurity" CONTENT="0">
+	<META NAME="HyperlinksChanged" CONTENT="false">
+	<META NAME="LinksUpToDate" CONTENT="false">
+	<META NAME="ScaleCrop" CONTENT="false">
+	<META NAME="ShareDoc" CONTENT="false">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2.54cm }
+		P { margin-bottom: 0.21cm; direction: ltr; color: #000000; widows: 2; orphans: 2 }
+		A:link { color: #000080; so-language: zxx; text-decoration: underline }
+		A:visited { color: #800000; so-language: zxx; text-decoration: underline }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="pl-PL" TEXT="#000000" LINK="#000080" VLINK="#800000" DIR="LTR">
+<P STYLE="margin-bottom: 0.28cm"><A NAME="_GoBack"></A><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4>Architektura
+systemu windows</FONT></FONT></FONT></P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4>Jądro
+	systemu - </FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">podstawowa
+	część systemu operacyjnego, która jest odpowiedzialna za wszystkie
+	jego zadania.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4>Pamięć
+	wirtualna, fizyczna, plik wymiany &ndash; konfiguracja</FONT></FONT></FONT></P>
+</OL>
+<P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><B>Pamięć
+fizyczna</B></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4>
+- </FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">mechanizm
+zarządzania pamięcią komputera zapewniający procesowi wrażenie pracy
+w jednym, dużym, ciągłym obszarze pamięci operacyjnej, podczas gdy
+fizycznie może być ona pofragmentowana, nieciągła i częściowo
+przechowywana na urządzeniach pamięci masowej.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><B>Pamięć
+wirtualna</B></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">
+- mechanizm zarządzania pamięcią komputera zapewniający procesowi
+wrażenie pracy w jednym, dużym, ciągłym obszarze pamięci operacyjnej,
+podczas gdy fizycznie może być ona pofragmentowana, nieciągła i
+częściowo przechowywana na urządzeniach pamięci masowej.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><B>Plik
+wymiany </B></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">-
+specjalny plik systemowy wykorzystywany przez systemy operacyjne jako
+dodatkowa pamięć wspomagająca mechanizm stronicowania i pamięci
+wirtualnej. Zakłada się że wielkość pliku wymiany powinna być 2-3
+krotną wielkością posiadanej pamięci RAM. Jeśli dysponujemy 1GB RAM,
+to powinniśmy ustawić wielkość równą 3 x 1024 MB czyli 3072 MB. Plik
+wymiany powinien być niepofragmentowany, dlatego najlepiej by miał
+stałą wielkość.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0.28cm; font-style: normal; font-weight: normal">
+<BR><BR>
+</P>
+<OL START=3>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4><B>Wielozadaniowość</B></FONT><FONT SIZE=4>
+	- cecha systemu operacyjnego umożliwiająca wykonywanie więcej niż
+	jeden proces w tym samym czasie.</FONT></P>
+</OL>
+<P STYLE="margin-bottom: 0.28cm"><BR><BR>
+</P>
+<OL START=4>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4><B>Menadżer zadań
+	</B></FONT><FONT SIZE=4>- </FONT><FONT COLOR="#00000a"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">program
+	służący do zarządzania procesami danego systemu operacyjnego,
+	monitorowania systemu analizy działania sieci, dysku i innych części
+	składowych komputera. Zapewnia dostęp do informacji takich jak:
+	wydajność komputera, uruchomione aplikacje i procesy, stan pamięci
+	komputera.</SPAN></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT FACE="Arial, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">
+	</SPAN></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#00000a"><FONT SIZE=4><SPAN LANG="pl-PL">
+	</SPAN></FONT></FONT>
+	</P>
+</OL>
+<P STYLE="margin-bottom: 0.28cm"><BR><BR>
+</P>
+<OL START=5>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4>Etapy uruchamiania
+	systemu windows</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><B>1]
+	PreBoot: </B></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Test
+	POST lub Power-On Self-Test ładuje ustawienia oprogramowania
+	układowego. Sprawdza poprawność systemu dyskowego i czy system jest
+	gotowy do przejścia do następnej fazy. Jeśli komputer ma prawidłowy
+	MBR, tj. Główny rekord rozruchowy, proces rozruchu przebiega dalej i
+	ładuje Menedżera rozruchu systemu Windows.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><B>2]
+	Menedżer rozruchu systemu Windows: </B></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Ten
+	krok określa, czy na komputerze jest zainstalowanych wiele systemów
+	operacyjnych. Jeśli tak, to oferuje menu z nazwami systemów
+	operacyjnych. Po wybraniu systemu operacyjnego załaduje odpowiedni
+	program</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><B>3]
+	Moduł ładujący system operacyjny Windows:</B></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">
+	ładuje ważne sterowniki, aby uruchomić jądro systemu Windows. Jądro
+	używa sterowników do komunikowania się ze sprzętem i wykonywania
+	pozostałych czynności wymaganych do kontynuowania procesu rozruchu.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><B>Jądro
+	systemu operacyjnego Windows NT: </B></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Jest
+	to ostatni etap, w którym pobierane są ustawienia rejestru,
+	dodatkowe sterowniki itp. Po przeczytaniu kontrolę przejmuje proces
+	administratora systemu. Ładuje interfejs użytkownika, resztę sprzętu
+	i oprogramowania. Wtedy wreszcie zobaczysz ekran logowania do
+	systemu Windows 10.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.28cm; font-style: normal; font-weight: normal">
+<BR><BR>
+</P>
+<OL START=6>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4>Tryby uruchamiania
+	systemu windows</FONT></P>
+</OL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4>Tryb zwykły</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4>Tryb awaryjny</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4>Tryb awaryjny z
+	obsługą sieci</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4>Tryb wiersza
+	poleceń</FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.28cm"><BR><BR>
+</P>
+<OL START=7>
+	<LI><P STYLE="margin-bottom: 0.28cm"><FONT SIZE=4><B>Folder
+	autostart </B></FONT><FONT SIZE=4>&ndash; folder, </FONT><FONT COLOR="#202124"><FONT FACE="Calibri, serif"><FONT SIZE=4><SPAN LANG="pl-PL"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">do
+	którego użytkownicy mogą dodawać programy i pliki. Całe
+	oprogramowanie i programy w tym folderze będą uruchamiane
+	automatycznie podczas uruchamiania systemu Windows.</SPAN></SPAN></SPAN></FONT></FONT></FONT></P>
+</OL>
+<P STYLE="margin-bottom: 0.28cm"><IMG SRC="Architektura_html_m7e59e663.png" ALIGN=BOTTOM WIDTH=480 HEIGHT=480 BORDER=0></P>
+</BODY>
+</HTML>
