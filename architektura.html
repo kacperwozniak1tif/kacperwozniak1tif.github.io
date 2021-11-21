@@ -1,24 +1,78 @@
-Architektura systemu windows
-1. Jądro systemu - podstawowa część systemu operacyjnego, która jest odpowiedzialna za wszystkie jego zadania.
-2. Pamięć wirtualna, fizyczna, plik wymiany – konfiguracja
-Pamięć fizyczna - mechanizm zarządzania pamięcią komputera zapewniający procesowi wrażenie pracy w jednym, dużym, ciągłym obszarze pamięci operacyjnej, podczas gdy fizycznie może być ona pofragmentowana, nieciągła i częściowo przechowywana na urządzeniach pamięci masowej.
-Pamięć wirtualna - mechanizm zarządzania pamięcią komputera zapewniający procesowi wrażenie pracy w jednym, dużym, ciągłym obszarze pamięci operacyjnej, podczas gdy fizycznie może być ona pofragmentowana, nieciągła i częściowo przechowywana na urządzeniach pamięci masowej.
-Plik wymiany - specjalny plik systemowy wykorzystywany przez systemy operacyjne jako dodatkowa pamięć wspomagająca mechanizm stronicowania i pamięci wirtualnej. Zakłada się że wielkość pliku wymiany powinna być 2-3 krotną wielkością posiadanej pamięci RAM. Jeśli dysponujemy 1GB RAM, to powinniśmy ustawić wielkość równą 3 x 1024 MB czyli 3072 MB. Plik wymiany powinien być niepofragmentowany, dlatego najlepiej by miał stałą wielkość.
-
-3. Wielozadaniowość - cecha systemu operacyjnego umożliwiająca wykonywanie więcej niż jeden proces w tym samym czasie.
-
-4. Menadżer zadań - program służący do zarządzania procesami danego systemu operacyjnego, monitorowania systemu analizy działania sieci, dysku i innych części składowych komputera. Zapewnia dostęp do informacji takich jak: wydajność komputera, uruchomione aplikacje i procesy, stan pamięci komputera.  
-
-5. Etapy uruchamiania systemu windows
-1] PreBoot: Test POST lub Power-On Self-Test ładuje ustawienia oprogramowania układowego. Sprawdza poprawność systemu dyskowego i czy system jest gotowy do przejścia do następnej fazy. Jeśli komputer ma prawidłowy MBR, tj. Główny rekord rozruchowy, proces rozruchu przebiega dalej i ładuje Menedżera rozruchu systemu Windows.
-2] Menedżer rozruchu systemu Windows: Ten krok określa, czy na komputerze jest zainstalowanych wiele systemów operacyjnych. Jeśli tak, to oferuje menu z nazwami systemów operacyjnych. Po wybraniu systemu operacyjnego załaduje odpowiedni program
-3] Moduł ładujący system operacyjny Windows: ładuje ważne sterowniki, aby uruchomić jądro systemu Windows. Jądro używa sterowników do komunikowania się ze sprzętem i wykonywania pozostałych czynności wymaganych do kontynuowania procesu rozruchu.
-Jądro systemu operacyjnego Windows NT: Jest to ostatni etap, w którym pobierane są ustawienia rejestru, dodatkowe sterowniki itp. Po przeczytaniu kontrolę przejmuje proces administratora systemu. Ładuje interfejs użytkownika, resztę sprzętu i oprogramowania. Wtedy wreszcie zobaczysz ekran logowania do systemu Windows 10.
-
-6. Tryby uruchamiania systemu windows
-Tryb zwykły
-Tryb awaryjny
-Tryb awaryjny z obsługą sieci
-Tryb wiersza poleceń
-
-7. Folder autostart – folder, do którego użytkownicy mogą dodawać programy i pliki. Całe oprogramowanie i programy w tym folderze będą uruchamiane automatycznie podczas uruchamiania systemu Windows.
+<p style="margin-bottom: 0cm;">Architektura systemu windows</p>
+<ol>
+    <li>&nbsp; &nbsp;&nbsp;</li>
+    <li>
+        <p style="margin-bottom: 0cm;">Jądro &nbsp; &nbsp; systemu - <span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">podstawowa &nbsp; &nbsp; część systemu operacyjnego, kt&oacute;ra jest odpowiedzialna za &nbsp; &nbsp; wszystkie jego zadania.</span></span></span></p>&nbsp; &nbsp;&nbsp;
+    </li>
+    <li>
+        <p style="margin-bottom: 0cm;">Pamięć &nbsp; &nbsp; wirtualna, fizyczna, plik wymiany &ndash; konfiguracja</p>
+    </li>
+</ol>
+<p style="margin-bottom: 0cm;"><strong>Pamięć fizyczna</strong> - <span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">mechanizm zarządzania pamięcią komputera zapewniający procesowi wrażenie pracy w jednym, dużym, ciągłym obszarze pamięci operacyjnej, podczas gdy fizycznie może być ona pofragmentowana, nieciągła i częściowo przechowywana na urządzeniach pamięci masowej.</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span lang="pl-PL"><span style="font-style: normal;"><strong>Pamięć wirtualna</strong></span></span><span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">&nbsp;- mechanizm zarządzania pamięcią komputera zapewniający procesowi wrażenie pracy w jednym, dużym, ciągłym obszarze pamięci operacyjnej, podczas gdy fizycznie może być ona pofragmentowana, nieciągła i częściowo przechowywana na urządzeniach pamięci masowej.</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span lang="pl-PL"><span style="font-style: normal;"><strong>Plik wymiany&nbsp;</strong></span></span><span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">- specjalny plik systemowy wykorzystywany przez systemy operacyjne jako dodatkowa pamięć wspomagająca mechanizm stronicowania i pamięci wirtualnej. Zakłada się że wielkość pliku wymiany powinna być 2-3 krotną wielkością posiadanej pamięci RAM. Jeśli dysponujemy 1GB RAM, to powinniśmy ustawić wielkość r&oacute;wną 3 x 1024 MB czyli 3072 MB. Plik wymiany powinien być niepofragmentowany, dlatego najlepiej by miał stałą wielkość.</span></span></span></p>
+<p lang="pl-PL" style="margin-bottom: 0cm; font-style: normal; font-weight: normal;"><br></p>
+<ol start="3">
+    <li>&nbsp; &nbsp;&nbsp;</li>
+    <li>
+        <p style="margin-bottom: 0cm;"><strong>Wielozadaniowość</strong> &nbsp; &nbsp; - cecha systemu operacyjnego umożliwiająca wykonywanie więcej niż &nbsp; &nbsp; jeden proces w tym samym czasie.</p>
+    </li>
+</ol>
+<p style="margin-bottom: 0cm;"><br></p>
+<ol start="4">
+    <li>&nbsp; &nbsp;&nbsp;</li>
+    <li>
+        <p style="margin-bottom: 0cm;"><strong>Menadżer zadań&nbsp;</strong>- &nbsp; &nbsp; <span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">program &nbsp; &nbsp; służący do zarządzania procesami danego systemu operacyjnego, &nbsp; &nbsp; monitorowania systemu analizy działania sieci, dysku i innych &nbsp; &nbsp; części składowych komputera. Zapewnia dostęp do informacji &nbsp; &nbsp; takich jak: wydajność komputera, uruchomione aplikacje i procesy, &nbsp; &nbsp; stan pamięci komputera.</span></span></span><span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">&nbsp;&nbsp; &nbsp;&nbsp;</span></span></span><span lang="pl-PL">&nbsp;&nbsp; &nbsp;&nbsp;</span> &nbsp; &nbsp;&nbsp;</p>
+    </li>
+</ol>
+<p lang="pl-PL" style="margin-bottom: 0cm;"><br></p>
+<ol start="5">
+    <li>&nbsp; &nbsp;&nbsp;</li>
+    <li>
+        <p style="margin-bottom: 0cm;">Etapy uruchamiania &nbsp; &nbsp; systemu windows</p>
+    </li>
+</ol>
+<ul>
+    <li>&nbsp; &nbsp;&nbsp;</li>
+    <li>
+        <p style="margin-bottom: 0cm;"><span lang="pl-PL"><span style="font-style: normal;"><strong>1] &nbsp; &nbsp; PreBoot:&nbsp;</strong></span></span><span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">Test &nbsp; &nbsp; POST lub Power-On Self-Test ładuje ustawienia oprogramowania &nbsp; &nbsp; układowego. Sprawdza poprawność systemu dyskowego i czy system &nbsp; &nbsp; jest gotowy do przejścia do następnej fazy. Jeśli komputer ma &nbsp; &nbsp; prawidłowy MBR, tj. Gł&oacute;wny rekord rozruchowy, proces rozruchu &nbsp; &nbsp; przebiega dalej i ładuje Menedżera rozruchu systemu Windows.</span></span></span></p>&nbsp; &nbsp;&nbsp;
+    </li>
+    <li>
+        <p style="margin-bottom: 0cm;"><span lang="pl-PL"><span style="font-style: normal;"><strong>2] &nbsp; &nbsp; Menedżer rozruchu systemu Windows:&nbsp;</strong></span></span><span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">Ten &nbsp; &nbsp; krok określa, czy na komputerze jest zainstalowanych wiele system&oacute;w &nbsp; &nbsp; operacyjnych. Jeśli tak, to oferuje menu z nazwami system&oacute;w &nbsp; &nbsp; operacyjnych. Po wybraniu systemu operacyjnego załaduje odpowiedni &nbsp; &nbsp; program</span></span></span></p>&nbsp; &nbsp;&nbsp;
+    </li>
+    <li>
+        <p style="margin-bottom: 0cm;"><span lang="pl-PL"><span style="font-style: normal;"><strong>3] &nbsp; &nbsp; Moduł ładujący system operacyjny Windows:</strong></span></span><span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">&nbsp;&nbsp; &nbsp; ładuje ważne sterowniki, aby uruchomić jądro systemu Windows. &nbsp; &nbsp; Jądro używa sterownik&oacute;w do komunikowania się ze sprzętem i &nbsp; &nbsp; wykonywania pozostałych czynności wymaganych do kontynuowania &nbsp; &nbsp; procesu rozruchu.</span></span></span></p>&nbsp; &nbsp;&nbsp;
+    </li>
+    <li>
+        <p style="margin-bottom: 0cm;"><span lang="pl-PL"><span style="font-style: normal;"><strong>Jądro &nbsp; &nbsp; systemu operacyjnego Windows NT:&nbsp;</strong></span></span><span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">Jest &nbsp; &nbsp; to ostatni etap, w kt&oacute;rym pobierane są ustawienia rejestru, &nbsp; &nbsp; dodatkowe sterowniki itp. Po przeczytaniu kontrolę przejmuje proces &nbsp; &nbsp; administratora systemu. Ładuje interfejs użytkownika, resztę &nbsp; &nbsp; sprzętu i oprogramowania. Wtedy wreszcie zobaczysz ekran logowania &nbsp; &nbsp; do systemu Windows 10.</span></span></span></p>
+    </li>
+</ul>
+<p lang="pl-PL" style="margin-bottom: 0cm; font-style: normal; font-weight: normal;"><br></p>
+<ol start="6">
+    <li>&nbsp; &nbsp;&nbsp;</li>
+    <li>
+        <p style="margin-bottom: 0cm;">Tryby uruchamiania &nbsp; &nbsp; systemu windows</p>
+    </li>
+</ol>
+<ul>
+    <li>&nbsp; &nbsp;&nbsp;</li>
+    <li>
+        <p style="margin-bottom: 0cm;">Tryb zwykły</p>&nbsp; &nbsp;&nbsp;
+    </li>
+    <li>
+        <p style="margin-bottom: 0cm;">Tryb awaryjny</p>&nbsp; &nbsp;&nbsp;
+    </li>
+    <li>
+        <p style="margin-bottom: 0cm;">Tryb awaryjny z &nbsp; &nbsp; obsługą sieci</p>&nbsp; &nbsp;&nbsp;
+    </li>
+    <li>
+        <p style="margin-bottom: 0cm;">Tryb wiersza poleceń</p>
+    </li>
+</ul>
+<p><br></p>
+<ol start="7">
+    <li>
+        <p style="margin-bottom: 0cm;"><strong>Folder autostart&nbsp;</strong>&ndash; &nbsp; &nbsp; folder, <span lang="pl-PL"><span style="font-style: normal;"><span style="font-weight: normal;">do &nbsp; &nbsp; kt&oacute;rego użytkownicy mogą dodawać programy i pliki. Całe &nbsp; &nbsp; oprogramowanie i programy w tym folderze będą uruchamiane &nbsp; &nbsp; automatycznie podczas uruchamiania systemu Windows.</span></span></span></p>
+    </li>
+</ol>
+<p style="margin-bottom: 0cm;"><br></p>
