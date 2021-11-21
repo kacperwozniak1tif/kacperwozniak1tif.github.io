@@ -1,0 +1,24 @@
+Architektura systemu windows
+1. Jądro systemu - podstawowa część systemu operacyjnego, która jest odpowiedzialna za wszystkie jego zadania.
+2. Pamięć wirtualna, fizyczna, plik wymiany – konfiguracja
+Pamięć fizyczna - mechanizm zarządzania pamięcią komputera zapewniający procesowi wrażenie pracy w jednym, dużym, ciągłym obszarze pamięci operacyjnej, podczas gdy fizycznie może być ona pofragmentowana, nieciągła i częściowo przechowywana na urządzeniach pamięci masowej.
+Pamięć wirtualna - mechanizm zarządzania pamięcią komputera zapewniający procesowi wrażenie pracy w jednym, dużym, ciągłym obszarze pamięci operacyjnej, podczas gdy fizycznie może być ona pofragmentowana, nieciągła i częściowo przechowywana na urządzeniach pamięci masowej.
+Plik wymiany - specjalny plik systemowy wykorzystywany przez systemy operacyjne jako dodatkowa pamięć wspomagająca mechanizm stronicowania i pamięci wirtualnej. Zakłada się że wielkość pliku wymiany powinna być 2-3 krotną wielkością posiadanej pamięci RAM. Jeśli dysponujemy 1GB RAM, to powinniśmy ustawić wielkość równą 3 x 1024 MB czyli 3072 MB. Plik wymiany powinien być niepofragmentowany, dlatego najlepiej by miał stałą wielkość.
+
+3. Wielozadaniowość - cecha systemu operacyjnego umożliwiająca wykonywanie więcej niż jeden proces w tym samym czasie.
+
+4. Menadżer zadań - program służący do zarządzania procesami danego systemu operacyjnego, monitorowania systemu analizy działania sieci, dysku i innych części składowych komputera. Zapewnia dostęp do informacji takich jak: wydajność komputera, uruchomione aplikacje i procesy, stan pamięci komputera.  
+
+5. Etapy uruchamiania systemu windows
+1] PreBoot: Test POST lub Power-On Self-Test ładuje ustawienia oprogramowania układowego. Sprawdza poprawność systemu dyskowego i czy system jest gotowy do przejścia do następnej fazy. Jeśli komputer ma prawidłowy MBR, tj. Główny rekord rozruchowy, proces rozruchu przebiega dalej i ładuje Menedżera rozruchu systemu Windows.
+2] Menedżer rozruchu systemu Windows: Ten krok określa, czy na komputerze jest zainstalowanych wiele systemów operacyjnych. Jeśli tak, to oferuje menu z nazwami systemów operacyjnych. Po wybraniu systemu operacyjnego załaduje odpowiedni program
+3] Moduł ładujący system operacyjny Windows: ładuje ważne sterowniki, aby uruchomić jądro systemu Windows. Jądro używa sterowników do komunikowania się ze sprzętem i wykonywania pozostałych czynności wymaganych do kontynuowania procesu rozruchu.
+Jądro systemu operacyjnego Windows NT: Jest to ostatni etap, w którym pobierane są ustawienia rejestru, dodatkowe sterowniki itp. Po przeczytaniu kontrolę przejmuje proces administratora systemu. Ładuje interfejs użytkownika, resztę sprzętu i oprogramowania. Wtedy wreszcie zobaczysz ekran logowania do systemu Windows 10.
+
+6. Tryby uruchamiania systemu windows
+Tryb zwykły
+Tryb awaryjny
+Tryb awaryjny z obsługą sieci
+Tryb wiersza poleceń
+
+7. Folder autostart – folder, do którego użytkownicy mogą dodawać programy i pliki. Całe oprogramowanie i programy w tym folderze będą uruchamiane automatycznie podczas uruchamiania systemu Windows.
