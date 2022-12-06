@@ -1,0 +1,2621 @@
+<div>
+    <p>Adres IP&nbsp;(ang.&nbsp;IP address) &ndash; liczbowy identyfikator nadawany&nbsp;interfejsowi sieciowemu, grupie interfejs&oacute;w (broadcast,&nbsp;multicast),&nbsp;bądź całej&nbsp;sieci komputerowej&nbsp;w&nbsp;protokole IP, służący identyfikacji element&oacute;w sieci w warstwie trzeciej&nbsp;modelu OSI&nbsp;&ndash; w obrębie sieci lokalnej oraz poza nią (tzw.&nbsp;adres publiczny).&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>W przeciwieństwie do&nbsp;adresu sprzętowego&nbsp;(MAC; warstwa druga modelu OSI) adres IP nie musi identyfikować jednoznacznie urządzenia ani w czasie, ani fizycznie (szczeg&oacute;lnie, jeśli nie należy on do zakresu publicznego, a jest adresem podlegającym&nbsp;translacji, bądź jest przydzielany dynamicznie).&nbsp;Protok&oacute;ł komunikacyjny&nbsp;IP&nbsp;pracuje w trzeciej warstwie modelu (warstwie sieciowej) niezależnie od rodzaju nośnika warstwy pierwszej. Jest&nbsp;trasowalny&nbsp;(routowalny), a więc umożliwia&nbsp;trasowanie, kt&oacute;re odbywa się właśnie w warstwie trzeciej. Aby zapewnić pomyślność komunikacji w tym protokole, konieczne jest przyporządkowanie adres&oacute;w IP interfejsom sieciowym urządzeń.&nbsp;</p>
+</div>
+<div>
+    <p>Z warstwą łącza danych, drugą warstwą rzeczonego modelu, komunikuje się zwykle za pomocą protokoł&oacute;w&nbsp;ARP&nbsp;i&nbsp;RARP. Pierwszy z nich informuje warstwę trzecią o&nbsp;adresie sprzętowym&nbsp;urządzenia, drugi umożliwia wskazanie adresu IP urządzenia przy znajomości adresu sprzętowego.&nbsp;</p>
+</div>
+<div>
+    <p>Protok&oacute;ł IP gwarantuje jedynie odnalezienie interfejsu lub grupy interfejs&oacute;w sieciowych w pewnej sieci, jednak nie zapewnia poprawności transmisji danych. Wsp&oacute;łpracę z czwartą we wspomnianym modelu OSI warstwą transportową, kt&oacute;ra służy właśnie temu celowi, umożliwia m.in. protok&oacute;ł&nbsp;TCP&nbsp;w niej działający. Z tego powodu powstał stos protokoł&oacute;w&nbsp;TCP/IP&nbsp;będący kombinacją m.in. tych dw&oacute;ch protokoł&oacute;w.&nbsp;</p>
+</div>
+<div>
+    <p>Adresy IP stosuje się nie tylko w&nbsp;Internecie, ale r&oacute;wnież w&nbsp;sieciach lokalnych&nbsp;korzystających z TCP/IP. W pierwszym przypadku przypisywany jest on przez&nbsp;dostawcę&nbsp;internetu, w drugim o poprawne jego przypisanie dba zwykle jej&nbsp;administrator.&nbsp;</p>
+</div>
+<div>
+    <p>W celu zapewnienia jednoznaczności rozpoznawania się poszczeg&oacute;lnych uczestnik&oacute;w komunikacji stosuje się system odwzorowania unikatowej nazwy symbolicznej do adres&oacute;w IP (protok&oacute;ł&nbsp;DNS), dzięki czemu użytkownicy Internetu nie muszą ich pamiętać i aktualizować. Np. adresowi&nbsp;208.80.152.2&nbsp;odpowiada obecnie interfejs sieciowy urządzenia/urządzeń (por.&nbsp;redundancja) obsługujących serwis&nbsp;Wikipedii. Aby korzystać z tej encyklopedii, wystarczy zapamiętanie łatwiejszej nazwy&nbsp;wikipedia.org, kt&oacute;ra tłumaczona jest na adres IP serwera przez serwery DNS (warstwy: piąta, sz&oacute;sta i si&oacute;dma modelu OSI nazywane odpowiednio: sesji, prezentacji i aplikacji).&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>Od 1977 w Internecie używane są adresy IP protokołu w wersji czwartej,&nbsp;IPv4. Zapotrzebowanie na adresy IPv4 stało się na tyle duże, że pula nieprzydzielonych adres&oacute;w zaczęła się wyczerpywać (w 2011 roku zakładano, że w zależności od regionu nastąpi to w roku między 2011 a 2016), z tego powodu powstała nowa, sz&oacute;sta wersja protokołu &ndash;&nbsp;IPv6, kt&oacute;rej test odbył się 8 czerwca 2011 roku. Piąta wersja,&nbsp;IPv5&nbsp;mająca rozszerzyć możliwości poprzedniczki nie zdobyła popularności, protok&oacute;ł ten znany jest szerzej pod angielską nazwą&nbsp;Internet&nbsp;Stream&nbsp;Protocol&nbsp;(pol. &bdquo;protok&oacute;ł strumieni internetowych&rdquo;), skracaną do&nbsp;ST.&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>IPv4&nbsp;(ang.&nbsp;Internet Protocol version 4) &ndash; czwarta wersja&nbsp;protokołu komunikacyjnego&nbsp;IP&nbsp;przeznaczonego dla&nbsp;Internetu. Identyfikacja&nbsp;host&oacute;w&nbsp;w IPv4 opiera się na&nbsp;adresach IP. Dane przesyłane są w postaci standardowych&nbsp;datagram&oacute;w. Wykorzystanie IPv4 jest możliwe niezależnie od technologii łączącej urządzenia sieciowe &ndash;&nbsp;sieć telefoniczna,&nbsp;kablowa,&nbsp;radiowa&nbsp;itp. IPv4 znajduje się obecnie w powszechnym użyciu. Dostępna jest r&oacute;wnież nowsza wersja &ndash;&nbsp;IPv6. Opis czwartej wersji protokołu IP znajduje się w&nbsp;RFC 791.&nbsp;W&nbsp;modelu TCP/IP&nbsp;protok&oacute;ł IPv4 znajduje się w warstwie Internetu, kt&oacute;rej odpowiada warstwa sieci w&nbsp;modelu OSI.&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>IPv5&nbsp;(ang.&nbsp;Internet&nbsp;Protocol&nbsp;version 5) &ndash; wbrew nazwie nie jest kolejną wersją protokołu&nbsp;IP, ale nazwą dla zestawu protokoł&oacute;w&nbsp;ST&nbsp;(The Internet&nbsp;Stream&nbsp;Protocol). Został stworzony by działać razem z&nbsp;IPv4, a nie zastępować go. Używa tego samego schematu adresowania oraz ramkowania&nbsp;warstwy danych.&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>IPv6&nbsp;(ang.&nbsp;Internet&nbsp;Protocol&nbsp;version 6) &ndash;&nbsp;protok&oacute;ł&nbsp;komunikacyjny, będący następcą protokołu&nbsp;IPv4, do kt&oacute;rego opracowania przyczynił się w gł&oacute;wnej mierze problem małej, kończącej się liczby adres&oacute;w IPv4. Podstawowymi zadaniami nowej wersji protokołu jest zwiększenie przestrzeni dostępnych adres&oacute;w poprzez zwiększenie długości adresu z 32 bit&oacute;w do 128 bit&oacute;w, uproszczenie nagł&oacute;wka protokołu oraz zapewnienie jego elastyczności poprzez wprowadzenie rozszerzeń, a także wprowadzenie wsparcia dla klas usług,&nbsp;uwierzytelniania&nbsp;oraz sp&oacute;jności danych. Protok&oacute;ł jest znany także jako&nbsp;IP&nbsp;Next&nbsp;Generation&nbsp;oraz&nbsp;IPng. Gł&oacute;wnymi dokumentami opisującymi protok&oacute;ł są&nbsp;RFC 2460&nbsp;oraz&nbsp;RFC 4291.&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>Poniższa tabela uwzględnia adres sieci oraz adres rozgłoszeniowy jako adresy host&oacute;w&nbsp;</p>
+</div>
+<div>
+    <div>
+        <div><br></div>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Nazwa&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp;Pierwszy oktet&nbsp;dw&oacute;jkowy&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Pierwszy adres IP&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp; Ostatni adres IP &nbsp; &nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Liczba sieci &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Maksymalna liczba&nbsp;adres&oacute;ww&nbsp;sieci&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>A&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0xxxxxxx&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp;0.0.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>127.255.255.255&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>128 (7 bit&oacute;w)&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16 777 216 (24 bity)&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>B&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10xxxxxx&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>128.0.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>191.255.255.255&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16 384 (14 bit&oacute;w)&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>65 536 (16 bit&oacute;w)&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>C&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;110xxxxx &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>192.0.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>223.255.255.255&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>2 097 152 (21 bit&oacute;w)&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>256 (8 bit&oacute;w)&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>D&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1110xxxx &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp;224.0.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>239.255.255.255&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>nie zdefiniowano&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>nie zdefiniowano&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>E &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1111xxxx&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp;240.0.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.255&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>nie zdefiniowano&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>nie zdefiniowano&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>Maska podsieci (dla IPv4) podobnie jak adres IP w wersji 4 jest liczbą 32 bitową (dla IPv6 ma 128 bit&oacute;w). Maska służy do wyodrębnienia w adresie IP części będącej adresem podsieci i części, kt&oacute;ra jest adresem hosta w tej podsieci. Maska podsieci ma bardzo charakterystyczną budowę - zaczyna się od ciągu jedynek, a następnie przechodzi w ciąg zer - część z jedynkami, to część sieciowa maski, natomiast ciąg zer to tzw. część hosta.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>W przypadku IPv4 podawana jest najczęściej w postaci czterech liczb 8-bitowych zapisanych dziesiętnie i oddzielonych kropkami (na przykład 255.255.255.0). Wartość maski musi być znana wszystkim ruterom i komputerom znajdującym się w danej podsieci. W wyniku por&oacute;wnywania maski adresu (np. 255.255.255.0) z konkretnym adresem IP (np. 192.168.1.122) router otrzymuje informację o tym, kt&oacute;ra część adresu identyfikuje podsieć (w tym przypadku 192.168.1.), a kt&oacute;ra urządzenie mające przypisany ten adres IP (końc&oacute;wka adresu: .122).&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Często można spotkać się ze skr&oacute;conym zapisem maski w postaci określającej liczbę początkowych bit&oacute;w mających wartość 1. W przypadku adresu IP 192.168.1.269 i masce 255.255.255.0 skr&oacute;cony zapisy wygląda tak:&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>192.168.1.269/24&nbsp;</p>
+</div>
+<div>
+    <p>W poniższej tabeli zebrano informacje na temat rozmiar&oacute;w maski podsieci (ilości bit&oacute;w zajmujących część sieciową adresu) oraz odpowiadającej im ilości dostępnych adres&oacute;w IP w obrębie danej podsieci. Uwaga! Ilość host&oacute;w jest o 2 mniejsza od ilości adres&oacute;w IP przydzielonych dla danej podsieci (2 adresy zabierają tzw. adres sieci oraz adres rozgłoszeniowy dla danej sieci)&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <div>
+        <div><br></div>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Maska podsieci&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Skr&oacute;cone oznaczenie&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Ilość adres&oacute;w IP&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.0.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/8&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16777216&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.128.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/9&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>8388608&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.192.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/10&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>4194304&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.224.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/11&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>2097152&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.240.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/12&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>1048576&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.248.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/13&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>524288&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.252.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/14&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>262144&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.254.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/15&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>131072&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/16&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>65536&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.128.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/17&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>32768&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.192.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/18&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16384&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.224.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/19&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>8192&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.240.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/20&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>4096&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.248.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/21&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>2048&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.252.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/22&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>1024&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.254.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/23&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>512&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/24&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>256&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.128&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/25&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>128&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.192&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/26&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>64&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.224&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/27&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>32&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.240&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/28&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.248&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/29&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>8&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.252&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/30&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>4&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.254&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/31&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>2&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.255&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/32&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>1&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <div>
+        <p>Funkcją maski jest&nbsp;określenie&nbsp;ile kolejnych bit&oacute;w w adresie IP stanowi adres sieci. Pozostałe bity określają już adresy konkretnego hosta w tej sieci (adres urządzenia końcowego).&nbsp;Tam&nbsp;gdzie w masce bit ustawiony jest na 1, odpowiadający mu bit adresu IP należy do adresu sieci, natomiast&nbsp;tam&nbsp;gdzie bit jest r&oacute;wny 0 - odpowiadający mu bit adresu IP należy do adresu hosta.&nbsp;</p>
+    </div>
+    <div>
+        <p>&nbsp;</p>
+    </div>
+    <div>
+        <p>W celu wymiany danych pomiędzy przynajmniej dwoma komputerami należy stworzyć dedykowaną sieć komputerową. W stworzonej sieci urządzenia komunikują się ze sobą za pomocą medi&oacute;w transmisyjnych, wykorzystując odpowiednie protokoły komunikacyjne. Obecnie, do sieci komputerowej podłączamy nie tylko komputery i serwery, ale r&oacute;wnież urządzenia CCTV, alarmy, elementy inteligentnego domu, czy też urządzenia AGD.&nbsp;<br>&nbsp;</p>
+    </div>
+    <div>
+        <p>Podczas konfigurowania interfejs&oacute;w sieciowych takich urządzeń, użytkownik proszony jest o wprowadzenie dedykowanych ustawień sieciowych. Najczęściej do wprowadzania są takie parametry jak:&nbsp;<br>&nbsp;</p>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>Adres IP,&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <div>
+        <ul>
+            <li>
+                <p>Maska podsieci,&nbsp;</p>
+            </li>
+            <li>
+                <p>Brama sieciowa,&nbsp;</p>
+            </li>
+            <li>
+                <p>DNS,&nbsp;</p>
+            </li>
+            <li>
+                <p>Porty (dla konkretnych usług).&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <p>Adres IP&nbsp;<br>&nbsp;</p>
+    </div>
+</div>
+<div>
+    <div>
+        <p>Adres IP (ang. IP&nbsp;address) - jest to numer identyfikacyjny hosta, kt&oacute;ry służy do prawidłowej komunikacji między urządzeniami. Adres IP to liczba nadawana interfejsowi sieciowemu, grupie interfejs&oacute;w (adresy typu broadcast,&nbsp;multicast), bądź całej sieci komputerowej, służąca identyfikacji element&oacute;w sieci oraz będąca jednym z element&oacute;w umożliwiających komunikację między nimi.&nbsp;<br>&nbsp;</p>
+    </div>
+    <div>
+        <p>Wyr&oacute;żniamy dwie wersje adres&oacute;w IP:&nbsp;<br>&nbsp;<br>&nbsp;</p>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>IP wersji 4 (IPv4) - adres IP to liczba 32-bitowa (od 0 do 4294967295), zapisywana w porządku big&nbsp;endian&nbsp;(zapis danych, w kt&oacute;rej najbardziej znaczący bajt umieszczony jest jako pierwszy). Adres zapisywany jest jako 4 oddzielne bajty, zwane oktetami, ponieważ w postaci binarnej mają one osiem bit&oacute;w. Te osiem bit&oacute;w daje 256 kombinacji, więc każdy oktet przedstawia liczbę od 0 do 255.&nbsp;</p>
+            </li>
+            <li>
+                <p>Najpopularniejszy spos&oacute;b zapisu adres&oacute;w IP, to przedstawianie ich jako 4 liczb od 0 do 255, oddzielonych kropkami. W rzeczywistości, komputery traktują adres strony firmy DIPOL jako liczbę 32-bitową: 1048150566. Taki zapis jest mało czytelny, wobec czego stosuje się podział adresu IP na cztery oktety.&nbsp;</p>
+            </li>
+            <li>
+                <p>Adres strony&nbsp;<span title="Niestety, Word nie może otworzyć tego linku w przeglądarce. Aby przejść do tego linku, otwórz ten dokument w wersji klasycznej programu Microsoft Word.">www.dipol.com.pl</span> zapisany binarnie ma postać:&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <p>00111110011110011000001000100110&nbsp;</p>
+</div>
+<div>
+    <p>(dzięsiętnie: 1048150566)&nbsp;</p>
+</div>
+<div>
+    <p>Podział na 4 oktety:&nbsp;00111110.01111001.10000010.00100110&nbsp;</p>
+</div>
+<div>
+    <p>Po przekształceniu czterech grup 8-bitowych do postaci dziesiętnej powstaje bardziej czytelny adres:&nbsp;</p>
+</div>
+<div>
+    <p>62.121.130.38&nbsp;</p>
+</div>
+<div>
+    <div>
+        <p>Ze względu na skończoną ilość adres&oacute;w oraz konieczność ich agregacji w celu uproszczenia trasowania, powstały Regionalne Rejestry Internetowe (ang. RIR). Są to organizacje zajmujące się przydzielaniem puli adres&oacute;w dla dostawc&oacute;w Internetu (ang. ISP). Najważniejszą organizacją jest Agencja Zarządzania Numeracją Internetową (ang. IANA), kt&oacute;ra zajmuje się dystrybucją poszczeg&oacute;lnych p&oacute;l adresowych. Natomiast do organizacji regionalnych należą:&nbsp;</p>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>APNIC (ang. Asia Pacific Network Information Centre) - rejon Azji i Pacyfiku,&nbsp;</p>
+            </li>
+            <li>
+                <p>ARIN (ang. American Registry for Internet&nbsp;Numbers) - rejon&nbsp;meryki&nbsp;P&oacute;łnocnej,&nbsp;</p>
+            </li>
+            <li>
+                <p>LACNIC (ang.&nbsp;Regional&nbsp;Latin-American and Caribbean IP&nbsp;Address&nbsp;Registry) - rejon Ameryki Łacińskiej i wysp Karaibskich,&nbsp;</p>
+            </li>
+            <li>
+                <p>RIPE (fr.&nbsp;R&eacute;seaux&nbsp;IP&nbsp;Europ&eacute;ens) - rejon Europy, Bliskiego Wschodu i centralnej Azji,&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <div>
+        <ul>
+            <li>
+                <p>AfriNIC&nbsp;- dla rejonu Afryki (Rozpoczęła działanie 22 lutego 2005, wcześniej dystrybucją zajmowały się RIPE NCC, APNIC i ARIN.&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>W IPv4 początkowo postanowiono wszystkie adresy IP podzielić na pięć klas adresowych:&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>A - duże organizacje (127 sieci - 7 bit&oacute;w) z bardzo dużą liczbą host&oacute;w (16 mln - 24 bity),&nbsp;<br>1 bit na definicję klasy,&nbsp;</p>
+            </li>
+            <li>
+                <p>B - duża liczba organizacji (16&nbsp;tys&nbsp;sieci - 14 bit&oacute;w) z dużą liczbą host&oacute;w (65&nbsp;tys&nbsp;- 16 bit&oacute;w),&nbsp;<br>2 bity na definicję klasy,&nbsp;</p>
+            </li>
+            <li>
+                <p>C - małe organizacje (2 mln sieci - 21 bit&oacute;w), niewielka liczba host&oacute;w (256 - 8 bit&oacute;w),&nbsp;<br>3 bity na definicję klasy,&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <div>
+        <ul>
+            <li>
+                <p>D - rozsyłanie grupowe pakiet&oacute;w,&nbsp;</p>
+            </li>
+            <li>
+                <p>E - zarezerwowana do cel&oacute;w badawczych.&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>Od roku 1997&nbsp;podział na klasy sieci jest nieaktualny i nieużywany.&nbsp;Obecnie adresy IPv4 są przydzielane bez zwracania uwagi na klasy sieci. Podział nie jest już też używany przez urządzenia, role klas przejęły maski podsieci. Obecnie cały Internet funkcjonuje na tzw. routingu bezklasowym (CSDIR ang.&nbsp;Classless&nbsp;Inter-Domain&nbsp;Routing).&nbsp;</p>
+            </li>
+            <li>
+                <p>IP wersji 6 (IPv6) - adres IP to liczba 128-bitowa w kodzie nie dziesiętnym, lecz szesnastkowym (heksadecymalnym). Oznacza to, że adres IP składa się z ośmiu grup cyfr, po cztery cyfry od 0 do F w każdej grupie. W przeciwieństwie do poprzedniej wersji protokołu, zakres adresu, czyli obszar jego widoczności, jest ograniczony przez odpowiedni prefiks.&nbsp;</p>
+            </li>
+            <li>
+                <p>Dostępna pula adresowa IPv6 to 2128&nbsp;co daje 340 282 366 920 938 463 463 374 607 431 768 211 456 adres&oacute;w.&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <div>
+        <ul>
+            <li>
+                <p>Adres IP zapisuje się jako osiem 16-bitowych blok&oacute;w zapisanych w systemie szesnastkowym oddzielonych dwukropkiem. Dozwolone jest pomijanie początkowych zer w bloku, a także pominięcie jednego ciągu blok&oacute;w składających się wyłącznie z zer.&nbsp;</p>
+            </li>
+            <li>
+                <p>Pominięte bloki zer oznacza się podw&oacute;jnym separatorem blok&oacute;w (dwukropek). Dopuszczalny jest tylko jeden podw&oacute;jny dwukropek&nbsp;&quot;::&quot; w adresie. Poniżej przedstawiono r&oacute;wnoważny zapis adresu: 2003:0db8:0000:0000:0000:0000:1428:57ac:&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>2003:0db8:0:0:0:0:1428:57ac&nbsp;</p>
+            </li>
+            <li>
+                <p>2003:0db8:0:0::1428:57ac&nbsp;</p>
+            </li>
+            <li>
+                <p>2003:0db8::1428:57ac&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <p>Maska podsieci&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Maska podsieci (dla IPv4) podobnie jak adres IP w wersji 4 jest liczbą 32 bitową (dla IPv6 ma 128 bit&oacute;w). Maska służy do wyodrębnienia w adresie IP części będącej adresem podsieci i części, kt&oacute;ra jest adresem hosta w tej podsieci. Maska podsieci ma bardzo charakterystyczną budowę - zaczyna się od ciągu jedynek, a następnie przechodzi w ciąg zer - część z jedynkami, to część sieciowa maski, natomiast ciąg zer to tzw. część hosta.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>W przypadku IPv4 podawana jest najczęściej w postaci czterech liczb 8-bitowych zapisanych dziesiętnie i oddzielonych kropkami (na przykład 255.255.255.0). Wartość maski musi być znana wszystkim ruterom i komputerom znajdującym się w danej podsieci. W wyniku por&oacute;wnywania maski adresu (np. 255.255.255.0) z konkretnym adresem IP (np. 192.168.1.122) router otrzymuje informację o tym, kt&oacute;ra część adresu identyfikuje podsieć (w tym przypadku 192.168.1.), a kt&oacute;ra urządzenie mające przypisany ten adres IP (końc&oacute;wka adresu: .122).&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Często można spotkać się ze skr&oacute;conym zapisem maski w postaci określającej liczbę początkowych bit&oacute;w mających wartość 1. W przypadku adresu IP 192.168.1.269 i masce 255.255.255.0 skr&oacute;cony zapisy wygląda tak:&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>192.168.1.269/24&nbsp;</p>
+</div>
+<div>
+    <p>W poniższej tabeli zebrano informacje na temat rozmiar&oacute;w maski podsieci (ilości bit&oacute;w zajmujących część sieciową adresu) oraz odpowiadającej im ilości dostępnych adres&oacute;w IP w obrębie danej podsieci. Uwaga! Ilość host&oacute;w jest o 2 mniejsza od ilości adres&oacute;w IP przydzielonych dla danej podsieci (2 adresy zabierają tzw. adres sieci oraz adres rozgłoszeniowy dla danej sieci)&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <div>
+        <div><br></div>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Maska podsieci&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Skr&oacute;cone oznaczenie&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Ilość adres&oacute;w IP&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.0.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/8&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16777216&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.128.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/9&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>8388608&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.192.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/10&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>4194304&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.224.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/11&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>2097152&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.240.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/12&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>1048576&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.248.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/13&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>524288&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.252.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/14&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>262144&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.254.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/15&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>131072&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.0.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/16&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>65536&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.128.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/17&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>32768&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.192.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/18&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16384&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.224.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/19&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>8192&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.240.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/20&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>4096&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.248.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/21&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>2048&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.252.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/22&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>1024&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.254.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/23&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>512&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.0&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/24&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>256&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.128&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/25&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>128&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.192&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/26&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>64&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.224&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/27&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>32&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.240&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/28&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>16&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.248&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/29&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>8&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.252&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/30&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>4&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.254&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/31&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>2&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.255&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>/32&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>1&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <p>Funkcją maski jest&nbsp;określenie&nbsp;ile kolejnych bit&oacute;w w adresie IP stanowi adres sieci. Pozostałe bity określają już adresy konkretnego hosta w tej sieci (adres urządzenia końcowego).&nbsp;Tam&nbsp;gdzie w masce bit ustawiony jest na 1, odpowiadający mu bit adresu IP należy do adresu sieci, natomiast&nbsp;tam&nbsp;gdzie bit jest r&oacute;wny 0 - odpowiadający mu bit adresu IP należy do adresu hosta.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Bity maski podsieci zawsze są ustawiane na 1 poczynając od bitu najbardziej znaczącego (pot. najstarszego), przykładowo:&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>adres IPv4: 192.168.10.111 = 11000000.10101000.00001010.01101111&nbsp;</p>
+</div>
+<div>
+    <p>maska podsieci: 255.255.255.0 = 11111111.11111111.11111111.00000000&nbsp;</p>
+</div>
+<div>
+    <p>W takim przypadku widać, iż adres sieci to:&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>adres sieci 192.168.10.0 = 11000000.10101000.00001010.00000000&nbsp;</p>
+</div>
+<div>
+    <p>Przykład obliczania adres&oacute;w: sieci oraz rozgłoszeniowego.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>W przypadku gdy do obliczenia jest adres sieci, a do dyspozycji jest adres IP urządzenia oraz maska należy wykonać obliczenia przy użyciu funkcji AND (wynik zawiera jedynkę wtedy gdy w obydwu ciągach występuje jedynka):&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Adres IP: 192.168.11.189 binarnie: 11000000.10101000.00001011.10111101&nbsp;</p>
+</div>
+<div>
+    <p>Maska: 255.255.255.128 binarnie:&nbsp;11111111.11111111.11111111.10000000&nbsp;</p>
+</div>
+<div>
+    <p>Wynik operacji AND binarnie:&nbsp;11000000.10101000.00001011.10000000&nbsp;</p>
+</div>
+<div>
+    <p>Wynikiem funkcji AND jest adres sieci, po przekształceniu go na zapis dziesiętny ma on postać: 192.168.11.128.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Mając adres podsieci można w prosty spos&oacute;b obliczyć adres rozgłoszeniowy. W tym celu stosuje się negację bit&oacute;w maski, a powstałą liczbę dodaje do adresu sieci:&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <div>
+        <div><br></div>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td colspan="4">
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Binarnie&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>&nbsp;Dziesiętnie&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Maska&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>11111111&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>11111111&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>11111111&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>10000000&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>255.255.255.128&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>Operacja NOT&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>00000000&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>00000000&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>00000000&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>01111111&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div><br></div>
+                        <div><br></div>
+                        <div>
+                            <div>
+                                <p>0.0.0.127&nbsp;</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <p>&nbsp;&nbsp;</p>
+</div>
+<div>
+    <p>Każdy z oktet&oacute;w należy dodać do odpowiadającego mu oktetu adresu sieci. Jako że 3 pierwsze oktety to 0, wystarczy dodać ostatni: 128+127=255. Szukanym adresem rozgłoszeniowym w tej sieci jest więc adres: 192.168.11.255.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Adresy IP, kt&oacute;re zawierają się pomiędzy adresem sieci a adresem rozgłoszeniowym są adresami dedykowanymi dla host&oacute;w. W przedstawionym przykładzie są to adresy:&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Pierwszy host 192.168.11.129 binarnie: 11000000.10101000.00001011.10000001&nbsp;</p>
+</div>
+<div>
+    <p>Ostatni host 192.168.11.254 binarnie 11000000.10101000.00001011.11111110&nbsp;</p>
+</div>
+<div>
+    <p>Zakres adres&oacute;w 192.168.11.129 - 192.168.11.254 umożliwia nam podłączenie maksymalnie 126 host&oacute;w.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Oczywiście nie ma potrzeby ręcznego liczenia zakres&oacute;w adres&oacute;w IP. Pomocne są w tym dedykowane kalkulatory dostępne r&oacute;wnież na urządzenia mobilne:&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Brama sieciowa&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Brama to urządzenie sieciowe, kt&oacute;re działa jako punkt wejścia z jednej sieci do innych sieci. Host wysyła do domyślnej bramy sieciowej (a konkretnie na adres IP bramy sieciowej) wszystkie pakiety skierowane do innych host&oacute;w znajdujących się poza siecią lokalną co oznacza, iż host bez podanego adresu bramy domyślnej może wymieniać pakiety tylko z komputerami w tej samej sieci lokalnej. Wobec upowszechnienia się sieci TCP/IP pojęcie bramy sieciowej stało się praktycznie tożsame z ruterem.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Brama tworzona jest na granicy sieci tak, aby zarządzać całą komunikacją danych, kt&oacute;re wymieniane są między siecią wewnętrzną a sieciami zewnętrznymi. Og&oacute;lnie rzecz biorąc dla prostych sieci domowych, brama działa jako zabezpieczenie dla sieci lokalnej łącząc ją z sieciami publicznymi.&nbsp;<br>Ustawiając adres IP dla bramy sieciowej (od strony sieci lokalnej), najczęściej wykorzystuje się pierwszy dostępny adres z puli adres&oacute;w host&oacute;w dostępnych w danej sieci.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>DNS&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Do zamiany publicznych (zewnętrznych) adres&oacute;w IP z postaci numerycznej na domenową służy usługa DNS (ang.&nbsp;Domain&nbsp;Name&nbsp;System). Oznacza to, że nie ma potrzeby pamiętania adres&oacute;w w postaci 62.121.130.38 - wystarczy zapamiętać dużo bardziej przyjazny adres&nbsp;<span title="Niestety, Word nie może otworzyć tego linku w przeglądarce. Aby przejść do tego linku, otwórz ten dokument w wersji klasycznej programu Microsoft Word.">www.dipol.com.pl</span>. Tłumaczeniem zapisu numerycznego na domenowy zajmuje się odpowiedni serwer DNS, do kt&oacute;rego komputer wysyła zapytanie z prośbą o przetłumaczenie adresu. Po uzyskaniu odpowiedzi z adresem numerycznym komputer nawiązuje połączenie z odpowiednim komputerem.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p><img src="data:image/gif;base64,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">&nbsp;</p>
+</div>
+<div>
+    <p>1. Jaki jest adres IP&nbsp;<span title="Niestety, Word nie może otworzyć tego linku w przeglądarce. Aby przejść do tego linku, otwórz ten dokument w wersji klasycznej programu Microsoft Word.">www.dipol.com.pl</span> (zapytanie do serwera DNS 8.8.8.8)&nbsp;<br>2.&nbsp;<span title="Niestety, Word nie może otworzyć tego linku w przeglądarce. Aby przejść do tego linku, otwórz ten dokument w wersji klasycznej programu Microsoft Word.">www.dipol.com.pl</span> to 62.121.130.38&nbsp;<br>3. Witaj,&nbsp;62.121.130.38 !&nbsp;Wyślij mi swoją stronę WWW&nbsp;<br>4. Proszę oto moja strona WWW&nbsp;<br>&nbsp;<br>Poglądowy schemat komunikacji pomiędzy klientem i serwerem z wykorzystaniem adres&oacute;w DNS.&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <p>Porty sieciowe&nbsp;<br>&nbsp;</p>
+</div>
+<div>
+    <div>
+        <p>Porty protokołu to pojęcie związane z protokołem TCP/IP używanym w Internecie do rozr&oacute;żniania wielu r&oacute;żnych usług i połączeń. Porty protokołu są oznaczone za pomocą liczb całkowitych z zakresu od 1 do 65535. Niekt&oacute;re porty (od 1 do 1023) są zarezerwowane na standardowe usługi np.:&nbsp;<br>&nbsp;</p>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>53 - DNS&nbsp;</p>
+            </li>
+            <li>
+                <p>20 - FTP - przesyłanie danych&nbsp;</p>
+            </li>
+            <li>
+                <p>21 - FTP - przesyłanie poleceń&nbsp;</p>
+            </li>
+            <li>
+                <p>67 - DHCP - serwer&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <div>
+        <ul>
+            <li>
+                <p>68 - DHCP - klient&nbsp;</p>
+            </li>
+            <li>
+                <p>79 -&nbsp;Finger&nbsp;</p>
+            </li>
+            <li>
+                <p>70 -&nbsp;Gopher&nbsp;</p>
+            </li>
+            <li>
+                <p>80 - HTTP&nbsp;</p>
+            </li>
+            <li>
+                <p>443 - HTTPS (HTTP na SSL)&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <div>
+        <ul>
+            <li>
+                <p>143 - IMAP&nbsp;</p>
+            </li>
+            <li>
+                <p>220 - IMAP3&nbsp;</p>
+            </li>
+            <li>
+                <p>3306 - MySQL&nbsp;</p>
+            </li>
+            <li>
+                <p>119 - NNTP&nbsp;</p>
+            </li>
+            <li>
+                <p>110 - POP3&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <div>
+        <ul>
+            <li>
+                <p>995 - POP3S (POP3 na SSL)&nbsp;</p>
+            </li>
+            <li>
+                <p>25 - SMTP&nbsp;</p>
+            </li>
+            <li>
+                <p>22 - SSH&nbsp;</p>
+            </li>
+            <li>
+                <p>23 - Telnet&nbsp;</p>
+            </li>
+            <li>
+                <p>69 - TFTP&nbsp;</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    <p>Przykładowo, jeśli jakiś host jest jednocześnie serwerem WWW, to w przypadku konieczności udostępnienia zasob&oacute;w WWW innemu hostowi, musi on otworzyć port 80.&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
