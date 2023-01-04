@@ -1,0 +1,68 @@
+<div>
+    <p><strong>Maska podsieci</strong> (dla IPv4) podobnie jak adres IP w wersji 4 jest liczbą 32 bitową&nbsp;(dla IPv6 ma 128 bit&oacute;w). Maska służy do wyodrębnienia w adresie IP części będącej adresem podsieci i części, kt&oacute;ra jest adresem hosta w tej podsieci.&nbsp;</p>
+</div>
+<div>
+    <p><strong>Adresy i maski </strong></p>
+</div>
+<div>
+    <p>W IPv4, czyli obecnym standardzie adresowania&nbsp;internetu, adres IP to liczba 32-bitowa (od 0 do 4294967295), zapisywana w porządku&nbsp;big&nbsp;endian. Liczba ta jest zazwyczaj zapisywana jako 4 oddzielne jej bajty, zwane oktetami, ponieważ w postaci binarnej mają one osiem bit&oacute;w. Te osiem bit&oacute;w daje 256 kombinacji, więc każdy oktet przedstawia liczbę od 0 do 255.&nbsp;</p>
+</div>
+<div>
+    <p>Najpopularniejszy spos&oacute;b zapisu adres&oacute;w IP, to przedstawianie ich jako 4 dziesiętnych liczb od 0 do 255 oddzielonych kropkami. W rzeczywistości komputery traktują adres Wikipedii jako liczbę 32-bitową: 3482223596. Taki zapis jest mało czytelny, wobec czego stosuje się podział adresu IP na cztery&nbsp;oktety.&nbsp;</p>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p>Ze względu na skończoną ilość adres&oacute;w oraz konieczność ich agregacji dla cel&oacute;w uproszczenia&nbsp;trasowania&nbsp;powstały Regionalne Rejestry Internetowe (ang.&nbsp;RIR) &ndash; organizacje zajmujące się przydzielaniem puli adres&oacute;w dla poszczeg&oacute;lnych dostawc&oacute;w Internetu (ang.&nbsp;ISP). Organizacją nadrzędną jest&nbsp;Agencja Zarządzania Numeracją Internetową (ang.&nbsp;IANA), kt&oacute;ra zajmuje się dystrybucją poszczeg&oacute;lnych p&oacute;l adresowych. Do organizacji regionalnych należą:&nbsp;</p>
+</div>
+<div>
+    <ul>
+        <li>
+            <p>APNIC&nbsp;(ang.&nbsp;Asia Pacific Network Information Centre) &ndash; dla rejonu Azji i Pacyfiku,&nbsp;</p>
+        </li>
+        <li>
+            <p>ARIN&nbsp;(ang.&nbsp;American Registry for Internet&nbsp;Numbers) &ndash; dla rejonu Ameryki P&oacute;łnocnej,&nbsp;</p>
+        </li>
+        <li>
+            <p>LACNIC&nbsp;(ang.&nbsp;Regional&nbsp;Latin-American and Caribbean IP&nbsp;Address&nbsp;Registry) &ndash; dla rejonu Ameryki Łacińskiej i wysp Karaibskich,&nbsp;</p>
+        </li>
+        <li>
+            <p>RIPE&nbsp;(fr.&nbsp;R&eacute;seaux&nbsp;IP&nbsp;Europ&eacute;ens) &ndash; dla rejonu Europy, Bliskiego Wschodu i centralnej Azji,&nbsp;</p>
+        </li>
+        <li>
+            <p>AfriNIC&nbsp;&ndash; dla rejonu Afryki (Rozpoczęła działanie 22 lutego 2005, wcześniej dystrybucją zajmowały się&nbsp;RIPE NCC,&nbsp;APNIC&nbsp;i&nbsp;ARIN.&nbsp;</p>
+        </li>
+    </ul>
+</div>
+<div>
+    <p>&nbsp;</p>
+</div>
+<div>
+    <p><strong>Prywatne adresy IPv4 </strong></p>
+</div>
+<div>
+    <p>Istnieje pula prywatnych adres&oacute;w IP. Mogą być one wykorzystane tylko w sieciach lokalnych. Infrastruktura Internetu ignoruje te adresy IP.&nbsp;IANA&nbsp;(Internet&nbsp;Assigned&nbsp;Numbers&nbsp;Authority) zarezerwował następujące trzy bloki przestrzeni adres&oacute;w IP dla prywatnych sieci:&nbsp;</p>
+</div>
+<div>
+    <ul>
+        <li>
+            <p>10.0.0.0 - 10.255.255.255 &ndash; dla sieci prywatnych dawniej z klasy A (maska zakresu: 255.0.0.0)&nbsp;</p>
+        </li>
+        <li>
+            <p>172.16.0.0 - 172.31.255.255 &ndash; dla sieci prywatnych dawniej z klasy B (maska zakresu: 255.240.0.0)&nbsp;</p>
+        </li>
+        <li>
+            <p>192.168.0.0 - 192.168.255.255 &ndash; dla sieci prywatnych dawniej z klasy C (maska zakresu: 255.255.0.0)&nbsp;</p>
+        </li>
+    </ul>
+</div>
+<div>
+    <p>Adresy prywatne można wykorzystywać w&nbsp;routerach&nbsp;w&nbsp;sieciach lokalnych, ale nie działają one w publicznej części&nbsp;internetu. Jeżeli administrator sieci lokalnej przydzieli swoim komputerom adresy IP z puli prywatnej, to routery mogą&nbsp;rozpoznać&nbsp;kiedy komputery chcą się łączyć z&nbsp;internetem. W takiej sytuacji brama internetowa wykorzystuje&nbsp;translację adres&oacute;w sieciowych, kt&oacute;ra pozwala na łączenie się z&nbsp;internetem&nbsp;komputerom nie posiadającym własnych publicznych adres&oacute;w IP. Komputery z adresami prywatnymi nie mogą pełnić roli serwer&oacute;w sieciowych w&nbsp;Internecie chyba,&nbsp;że posłużymy się techniką maskowania adres&oacute;w docelowych (DNAT).&nbsp;</p>
+</div>
+<div>
+    <p>Automatyczne przydzielanie adres&oacute;w IPv4 może być realizowane poprzez zastosowanie protokoł&oacute;w&nbsp;DHCP,&nbsp;RARP,&nbsp;BOOTP,&nbsp;PPP.&nbsp;</p>
+</div>
+<div>
+    <p>W przypadku braku serwera DHCP w sieci, adres IP przydzielany jest z puli 169.254.0.1 &ndash; 169.254.255.254 z domyślną maską 255.255.0.0 przez mechanizm APIPA.&nbsp;</p>
+</div>
